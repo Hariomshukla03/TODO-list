@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #050506;
+    color: #fff;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color:#050506;
+}
+.nav h1{
+    font-size: 3rem;
+}
+.nav input{
+    font-size: 1.5pc;
+}
+.nav h2{
+    padding: 20px;
+    font-size: 2rem;
+}
+#int{
+    display: flex;
+}
+#task h1{
+    text-align-last: center;
+    margin-top: 30px; 
+}
+#btn{
+    font-size: 1.5pc;
+    width: 200px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    font-size: 1.5rem;
+    background-color: #181E25;
+}
+ul li{
+    margin: 20px;
+}
+ul li i{
+    position: absolute;
+    right: 5rem;
+}
