@@ -51,3 +51,7 @@ ul li i{
     position: absolute;
     right: 5rem;
 }
+.done{
+    text-decoration: line-through;
+    color: #555;
+}
